@@ -1,0 +1,27 @@
+#prison {
+  /*vw - view width, means 30% of window*/
+  width: 30vw;
+  height: 30vw;
+  /*dash: dotted lines*/
+  border: 5px dashed black;
+  /*align= veritical justify = hroizontal, i think*/
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#prisoner {
+  font-size: 2rem;
+}
+
+#escape-tunnel {
+  /* Tunnel dimensions*/
+  width: 5vw;
+  height: 5vw;
+  border: 2px dashed black;
+  /*make it a circle*/
+  border-radius: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
